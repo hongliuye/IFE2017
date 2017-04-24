@@ -1,0 +1,192 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #DEDEDE;
+    font-family: 黑体;
+     font-size: 16px;
+}
+.hidden-title{
+    display: none;
+}
+.main-header{
+    height: 60px;
+    padding: 0 25px;
+    overflow: hidden;
+    background-color: #333333;
+}
+.main-header .logo{
+    float: left;
+}
+.main-header .nav-wrap{
+    float: right;
+    height: 60px;
+}
+
+.main-header .nav-list{
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+}
+
+.main-header .nav-item{
+    float: left;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.main-header .nav-link{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+
+}
+.main-header .nav-item:last-of-type .nav-link{
+    color: #9D999A;
+}
+
+.main-content{
+    padding: 25px;
+    overflow: auto;
+}
+
+.main-article{
+    background-color: white;
+    overflow: auto;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #CBCBCB;
+    box-shadow: 1px 1px 0 1px #888;
+}
+.regist-aside{
+    background-color: white;
+    overflow: auto;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #CBCBCB;
+    box-shadow: 1px 1px 0 1px #888;
+}
+.article-subtitle{
+    color: #666;
+}
+.article-author{
+    color: #888;
+}
+.main-article .article-para{
+    line-height: 2em;
+    text-indent: 2em;
+}
+.main-article .article-list{
+     line-height: 2em;
+}
+.main-article figure{
+    width: 200px;
+    height: 180px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+}
+.main-article figure + figure{
+  margin-top: 20px;
+}
+.main-article figure figcaption{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main-article figure img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.main-article .article-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.main-article .article-table th{
+    height: 30px;
+    padding-left: 5px;
+    color: white;
+    background-color: #333;
+    text-align: left;
+}
+.main-article .article-table td{
+    height: 30px;
+    padding-left: 5px;
+    border: 1px solid #CCCCCC;
+}
+.main-article .article-table tfoot td{
+    background-color: #CCCCCC;
+    font-weight: bold;
+}
+.ul-style-none{
+    list-style: none;
+}
+
+.regist-aside .aside-title{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    border-left: 5px solid #ccc; 
+    font-size: 20px;
+}
+.regist-aside .regist-form{
+    width: 100%;
+}
+.regist-aside .regist-form-table{
+    width: 100%;
+}
+
+.regist-aside .regist-form-table td:first-of-type{
+    width: 40%;
+    height: 35px;
+    padding-right: 10px;
+    text-align: right;
+}
+.regist-aside .rigist-field-tips{
+    color: #ccc;
+}
+.regist-aside td input{
+    vertical-align: baseline;
+}
+.regist-aside td input[type="email"], .regist-aside td input[type="password"]{
+     height: 25px;
+}
+.regist-aside td textarea{
+    height: 100px;
+    width: 80%;
+}
+.regist-aside .regist-form-table td.regist-btn-wrap{
+    text-align: center;
+}
+.regist-aside .regist-btn{
+    height: 40px;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    background-color: #3355D0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-footer{
+    height: 60px;
+    padding: 0 25px;
+    overflow: hidden;
+    background-color: #333333;
+}
+.main-footer .copy{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.vertical-top{
+    vertical-align: top;
+}
